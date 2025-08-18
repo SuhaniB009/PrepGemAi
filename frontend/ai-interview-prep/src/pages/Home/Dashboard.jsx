@@ -40,7 +40,7 @@ const Dashboard = () => {
 
   return (
     <DashboardLayout>
-      <div className="container mx-auto pt-4 pb-4 ">
+      <div className="container mx-auto pt-4 pb-4 pr-3 pl-3 ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-7 pt-1 pb-6 px-4 md:px-0">
           {sessions?.map((data, index) => (
             <SummaryCard
@@ -54,7 +54,7 @@ const Dashboard = () => {
                 lastUpdated={
                     data?.updatedAt ? moment(data.updatedAt).format("Do MMM YYYY") : "N/A"
                 } 
-                onSelect={() => navigate(`/interview-prep/${data?._id}`)}
+                onSelect={() => navigate(`/prep-gem/${data?._id}`)}
                 onDelete={() => setOpenDeleteAlert({ open: true, data })}
             />
           ))}

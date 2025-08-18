@@ -30,7 +30,7 @@ const LandingPage=()=>{
 
       <div className="container mx-auto px-4 pt-6 pb-[200px] relative z-10 ">
         {/*Header*/}
-        <header className="flex justify-between items-center mb-16">
+        <header className="flex justify-between items-center mb-16 ">
           <div className="text-xl text-black font-bold">
             Prep Gem AI
           </div>
@@ -87,11 +87,11 @@ const LandingPage=()=>{
 
     <div className="w-full min-h-full relative z-10 mb-56">
       <div>
-        <section className="flex items-center justify-center -mt-36">
+        <section className="flex  items-center justify-center -mt-36">
           <img 
           src={HERO_IMG}
           alt="Hero Image"
-          className="w-[80vw] rounded-lg"
+          className="w-[90vw] rounded-lg"
           />
         </section>
       </div>
@@ -137,9 +137,7 @@ const LandingPage=()=>{
         </div>
       </div>
 
-      <div className="text-sm bg-gray-50 text-secondary text-center p-5 mt-5">
-        Made with ❤️...Happy Coding
-      </div>  
+      
     </div>
 
     <Modal 

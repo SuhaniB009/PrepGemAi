@@ -10,7 +10,7 @@ import { UserProvider } from "./context/userContext";
 //import SignUp from "./pages/Auth/SignUp.jsx";
 import LandingPage from "./pages/LandingPage.jsx";
 import Dashboard from "./pages/Home/Dashboard.jsx";
-import PrepGem from "./pages/PrepGem/PrepGem.jsx";
+import PrepGem from "./pages/InterviewPrep/InterviewPrep.jsx";
 
 const App=()=>{
   return (
