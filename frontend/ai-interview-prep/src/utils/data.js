@@ -1,3 +1,15 @@
+export const CARD_BG = [
+  { id: 1, bgcolor: "#E6F4EA" }, // light green
+  { id: 2, bgcolor: "#E8F0FE" }, // light blue
+  { id: 3, bgcolor: "#FFF4E5" }, // light orange
+  { id: 4, bgcolor: "#FCE8E6" }, // light red
+  { id: 5, bgcolor: "#F3E8FF" }, // light purple
+  { id: 6, bgcolor: "#E0F7FA" }, // teal
+  { id: 7, bgcolor: "#FFFDE7" }, // yellow
+  { id: 8, bgcolor: "#F1F8E9" }, // mint green
+  { id: 9, bgcolor: "#EDE7F6" }, // lavender
+  { id: 10, bgcolor: "#FFEBEE" }, // pink
+];
 export const APP_FEATURES = [
   {
     id: "01",

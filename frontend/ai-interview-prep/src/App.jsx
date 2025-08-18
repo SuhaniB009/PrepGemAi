@@ -1,6 +1,9 @@
 import React from 'react'
 import {BrowserRouter as Router,Routes,Route}from 'react-router-dom';
 import {Toaster} from 'react-hot-toast';
+import { UserProvider } from "./context/userContext";
+
+
 
 
 //import Login from "./pages/Auth/Login.jsx";
@@ -12,6 +15,7 @@ import PrepGem from "./pages/PrepGem/PrepGem.jsx";
 const App=()=>{
   return (
     <div >
+      <UserProvider>
       <Router>
         <Routes>
           <Route path="/" element={<LandingPage/>}/> 
@@ -22,7 +26,7 @@ const App=()=>{
 
         </Routes>
       </Router>
-
+      </UserProvider>
       <Toaster toastOptions={{
           className:"",
           style:{
