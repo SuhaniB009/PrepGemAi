@@ -17,7 +17,11 @@ const ProfileInfoCard = () => {
             {/* Display the profile image */}
             {user?.profileImageUrl && (
                 <img
-                    src={`${import.meta.env.VITE_API_BASE_URL}/uploads/${user.profileImageUrl}`} 
+
+                    
+
+                    src={user.profileImageUrl} 
+
                     alt="Profile"
                     className="w-11 h-11 bg-gray-300 rounded-full mr-3"
                 />
