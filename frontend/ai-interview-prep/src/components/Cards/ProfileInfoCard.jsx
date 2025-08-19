@@ -17,7 +17,7 @@ const ProfileInfoCard = () => {
             {/* Display the profile image */}
             {user?.profileImageUrl && (
                 <img
-                    src={`{user.profileImageUrl}`} 
+                    src={user.profileImageUrl} 
                     alt="Profile"
                     className="w-11 h-11 bg-gray-300 rounded-full mr-3"
                 />
